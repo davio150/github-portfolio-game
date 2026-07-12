@@ -1,0 +1,26 @@
+[
+  {
+    "id": "project-1",
+    "name": "AI Resume Builder",
+    "description": "An intelligent resume builder that generates ATS-friendly resumes using OpenAI API.",
+    "stack": ["React", "TypeScript", "Node.js", "OpenAI API"],
+    "repository": "https://github.com/yourusername/ai-resume-builder",
+    "liveDemo": "https://ai-resume-builder.com",
+    "difficulty": "hard",
+    "completed": "2024-01-15",
+    "tags": ["AI", "Resume", "Web App"],
+    "facts": ["Uses GPT-4 for content generation", "Exports to PDF", "Mobile responsive"]
+  },
+  {
+    "id": "project-2",
+    "name": "GitHub Portfolio Game",
+    "description": "An interactive game showcasing your GitHub portfolio by catching fish representing projects.",
+    "stack": ["React", "TypeScript", "Framer Motion", "Tailwind CSS"],
+    "repository": "https://github.com/yourusername/github-portfolio-game",
+    "liveDemo": "https://portfolio-game.com",
+    "difficulty": "hard",
+    "completed": "2024-03-20",
+    "tags": ["Game", "Portfolio", "Interactive"],
+    "facts": ["60 FPS animations", "Multiple fish types", "Achievement system"]
+  }
+]
