@@ -1,0 +1,69 @@
+.fish {
+  transition: opacity 0.3s ease;
+}
+
+.fish:hover svg {
+  filter: brightness(1.2);
+}
+
+/* Fish Types */
+.fish-goldfish .fish-body {
+  fill: #FFD700;
+  stroke: #FFA500;
+  stroke-width: 2;
+}
+
+.fish-goldfish .fish-tail {
+  fill: #FFA500;
+}
+
+.fish-goldfish .fish-eye {
+  fill: #000;
+}
+
+.fish-bluefish .fish-body {
+  fill: #0EA5E9;
+  stroke: #0284C7;
+  stroke-width: 2;
+}
+
+.fish-bluefish .fish-tail {
+  fill: #0284C7;
+}
+
+.fish-bluefish .fish-eye {
+  fill: #FFF;
+}
+
+.fish-clownfish .fish-body {
+  fill: #FF6347;
+  stroke: #FF4500;
+  stroke-width: 2;
+}
+
+.fish-clownfish .fish-tail {
+  fill: #FF4500;
+}
+
+.fish-clownfish .fish-eye {
+  fill: #000;
+}
+
+/* Rarity glow effects */
+.fish.rare .fish-svg {
+  filter: drop-shadow(0 0 10px rgba(147, 51, 234, 0.6));
+}
+
+.fish.legendary .fish-svg {
+  filter: drop-shadow(0 0 20px rgba(255, 215, 0, 0.8));
+  animation: legendary-glow 1s ease-in-out infinite;
+}
+
+@keyframes legendary-glow {
+  0%, 100% {
+    filter: drop-shadow(0 0 20px rgba(255, 215, 0, 0.8));
+  }
+  50% {
+    filter: drop-shadow(0 0 30px rgba(255, 215, 0, 1));
+  }
+}

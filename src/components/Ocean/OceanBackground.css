@@ -1,0 +1,4 @@
+.ocean-background {
+  display: block;
+  background: linear-gradient(to bottom, #0369a1 0%, #075985 50%, #0c3d66 100%);
+}
